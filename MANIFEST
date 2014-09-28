@@ -1,0 +1,7 @@
+MANIFEST
+AMDInfo.pm
+AMDInfo.xs
+Makefile.PL
+include/adl_defines.h
+include/adl_sdk.h
+include/adl_structures.h

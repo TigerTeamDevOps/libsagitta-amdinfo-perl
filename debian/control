@@ -1,0 +1,13 @@
+Source: libperl-sagitta-amdinfo
+Maintainer: Jeremi Gosney <jgosney@stricture-group.com> 
+Section: misc
+Priority: important
+Standards-Version: 3.9.2
+Build-Depends: perl
+
+Package: libperl-sagitta-amdinfo
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}, perl, fglrx
+Description: AMD ADL bindings for Perl
+
+AMD ADL bindings for Perl, developed by Stricture Group for use in Sagitta Hashstack. These are not full ADL bindings. We do not wrap every single ADL function, nor do we attempt to follow the same syntax as the original C functions. Instead, we create simpler Perl methods for only the functionality we needed in Hashstack.
