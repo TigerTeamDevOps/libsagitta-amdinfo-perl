@@ -91,6 +91,9 @@ SV *ADL_Get_Adapters()
         if (ADL_OK != ADL_Overdrive_Caps (adapter_info[i].iAdapterIndex, &od_supported, &od_enabled, &od_version))
             continue;
 
+        if (! od_supported)
+            continue;
+
         av_push (av, newSViv (i));
     }
 
