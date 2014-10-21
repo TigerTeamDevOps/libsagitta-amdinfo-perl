@@ -1,3 +1,9 @@
+libsagitta-amdinfo-perl (1.0.0-2sagitta1) precise; urgency=low
+
+  * ensure adapter supports overdrive
+
+ -- epixoip <epixoip@token>  Mon, 20 Oct 2014 18:51:02 -0700
+
 libsagitta-amdinfo-perl (1.0.0-1) UNRELEASED; urgency=low
 
   * Initial release.
